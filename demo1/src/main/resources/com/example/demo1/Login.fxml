@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Controller.LoginController">
+   <children>
+      <Label text="Shoe Store" textFill="#a84141">
+         <font>
+            <Font name="Colonna MT" size="43.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="140.0" top="64.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="Email" promptText="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="50.0" left="100.0" right="100.0" top="71.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="Password" layoutX="110.0" layoutY="139.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="RegBtn" mnemonicParsing="false" text="Register" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="71.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="LoginBtn" mnemonicParsing="false" onAction="#Submit" text="Login" textFill="#3b3939" wrapText="true" AnchorPane.bottomAnchor="77.0" AnchorPane.leftAnchor="102.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

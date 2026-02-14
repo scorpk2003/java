@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.shoestore.Controller.ProductController">
+   <children>
+      <ImageView fitHeight="270.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/imgproduct.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Cart" layoutX="194.0" layoutY="213.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="119.0" text="Add To Cart">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="ProductName" alignment="CENTER" layoutX="152.0" layoutY="6.0" prefHeight="66.0" prefWidth="203.0" text="Name">
+         <font>
+            <Font name="Book Antiqua" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Priciest" alignment="CENTER" layoutX="235.0" layoutY="86.0" prefHeight="32.0" prefWidth="112.0" text="Price">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="86.0" prefHeight="32.0" prefWidth="54.0" text="Price">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="154.0" prefHeight="32.0" prefWidth="54.0" text="Size">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Sixtieth" alignment="CENTER" layoutX="231.0" layoutY="154.0" prefHeight="32.0" prefWidth="119.0" text="Label">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

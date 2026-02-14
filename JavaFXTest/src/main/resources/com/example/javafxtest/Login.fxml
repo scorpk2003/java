@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+    <children>
+        <Label text="Shoe Store" textFill="#a84141">
+            <font>
+                <Font name="Colonna MT" size="43.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="140.0" top="64.0" />
+            </VBox.margin>
+        </Label>
+        <TextField fx:id="Email" promptText="Email">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="50.0" left="100.0" right="100.0" top="71.0" />
+            </VBox.margin>
+        </TextField>
+        <TextField fx:id="Password" layoutX="110.0" layoutY="139.0" promptText="Password">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="100.0" right="100.0" />
+            </VBox.margin>
+        </TextField>
+        <Button mnemonicParsing="false" text="Login" textFill="#3b3939" wrapText="true">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="200.0" top="50.0" />
+            </VBox.margin>
+        </Button>
+        <Label prefHeight="27.0" prefWidth="199.0" text="Don't have Account? Register" textAlignment="CENTER">
+            <font>
+                <Font name="System Italic" size="15.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="242.0" top="51.0" />
+            </VBox.margin>
+        </Label>
+    </children>
+</VBox>

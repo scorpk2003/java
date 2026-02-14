@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="496.0" prefWidth="567.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.shoestore.Controller.RegisterController">
+   <ImageView fitHeight="494.0" fitWidth="297.0" layoutX="306.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@image/Shoe_Register.jpg" />
+      </image>
+   </ImageView>
+    <TextField fx:id="Emailtxt" layoutX="141.0" layoutY="117.0" promptText="Email" />
+    <TextField fx:id="Passtxt" layoutX="141.0" layoutY="153.0" promptText="Password" />
+    <TextField fx:id="Phonetxt" layoutX="141.0" layoutY="185.0" promptText="Phone" />
+    <TextField fx:id="CCCDtxt" layoutX="141.0" layoutY="224.0" promptText="CCCD" />
+    <TextField fx:id="IDtxt" layoutX="141.0" layoutY="295.0" promptText="UserID" />
+    <TextField fx:id="Nametxt" layoutX="141.0" layoutY="328.0" promptText="Name" />
+    <TextField fx:id="Addressed" layoutX="141.0" layoutY="362.0" promptText="Address" />
+    <DatePicker fx:id="Birthtxt" layoutX="141.0" layoutY="259.0" prefHeight="25.0" prefWidth="149.0" promptText="Birth" />
+    <CheckBox fx:id="Admin" layoutX="121.0" layoutY="425.0" mnemonicParsing="false" text="Admin">
+      <font>
+         <Font size="15.0" />
+      </font></CheckBox>
+   <Button fx:id="RegBtn" layoutX="403.0" layoutY="416.0" mnemonicParsing="false" onAction="#Regis" opacity="0.74" text="Register" textFill="#7a0909">
+      <font>
+         <Font name="Arial Narrow Bold" size="21.0" />
+      </font></Button>
+   <MenuButton fx:id="Gendertxt" layoutX="201.0" layoutY="420.0" mnemonicParsing="false" text="Gender">
+     <items>
+       <MenuItem fx:id="Maletxt" mnemonicParsing="false" text="Male" />
+       <MenuItem fx:id="Femaletxt" mnemonicParsing="false" text="Female" />
+     </items>
+      <font>
+         <Font size="15.0" />
+      </font>
+   </MenuButton>
+   <Label layoutX="19.0" layoutY="118.0" prefHeight="21.0" prefWidth="52.0" text="Email">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="15.0" layoutY="154.0" prefHeight="23.0" prefWidth="85.0" text="Password">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="3.0" layoutY="186.0" prefHeight="23.0" prefWidth="127.0" text="Phone Number">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="9.0" layoutY="225.0" prefHeight="23.0" prefWidth="97.0" text="CCCD">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="13.0" layoutY="260.0" prefHeight="23.0" prefWidth="106.0" text="Day Of Birth">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Button fx:id="BackToLogin" layoutX="22.0" layoutY="416.0" mnemonicParsing="false" text="Back">
+      <font>
+         <Font name="Arial Narrow Bold" size="21.0" />
+      </font>
+   </Button>
+   <Label layoutX="13.0" layoutY="296.0" prefHeight="23.0" prefWidth="106.0" text="ID">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="13.0" layoutY="329.0" prefHeight="23.0" prefWidth="106.0" text="Full Name">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="13.0" layoutY="363.0" prefHeight="23.0" prefWidth="106.0" text="Address">
+      <font>
+         <Font name="Arial Black" size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="34.0" layoutY="27.0" prefHeight="70.0" prefWidth="246.0" text="Register Form">
+      <font>
+         <Font name="Gill Sans Ultra Bold" size="25.0" />
+      </font>
+   </Label>
+</AnchorPane>

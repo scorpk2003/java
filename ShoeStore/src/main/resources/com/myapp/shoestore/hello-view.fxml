@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="540.0" prefWidth="358.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.shoestore.Controller.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+   <Label alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="83.0" prefWidth="295.0" text="Shoe Store" textAlignment="CENTER" textFill="#b20c0c" textOverrun="CLIP" wrapText="true">
+      <font>
+         <Font name="Brush Script MT Italic" size="59.0" />
+      </font>
+      <VBox.margin>
+         <Insets bottom="18.0" />
+      </VBox.margin>
+      <graphic>
+          <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <Image url="@image/shoe1.jpg" />
+          </ImageView>
+      </graphic>
+   </Label>
+   <TextField fx:id="mailtxt" promptText="Email">
+      <VBox.margin>
+         <Insets left="63.0" right="63.0" />
+      </VBox.margin>
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="passtxt" promptText="Password">
+      <VBox.margin>
+         <Insets left="63.0" right="63.0" />
+      </VBox.margin>
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+          <Button fx:id="LoginBtn" onAction="#Submit" text="Login">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+            <HBox.margin>
+               <Insets right="51.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="RegisterBtn" mnemonicParsing="false" text="Register">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+</VBox>

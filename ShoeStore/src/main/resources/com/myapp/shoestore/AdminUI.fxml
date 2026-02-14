@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="526.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.shoestore.Controller.AdminMainUI">
+   <children>
+      <VBox layoutX="7.0" layoutY="146.0" prefHeight="382.0" prefWidth="159.0">
+         <children>
+            <Button mnemonicParsing="false" text="Add Product">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="17.0" left="34.0" top="51.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Show" mnemonicParsing="false" text="Watch Product">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="17.0" left="34.0" top="51.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="Logout">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="17.0" left="34.0" top="51.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

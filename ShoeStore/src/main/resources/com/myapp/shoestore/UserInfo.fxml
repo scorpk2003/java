@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.shoestore.Controller.Info">
+   <children>
+      <AnchorPane prefHeight="321.0" prefWidth="559.0">
+         <children>
+            <Label layoutX="20.0" layoutY="26.0" text="User ID">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="126.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="174.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="290.0" layoutY="125.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="293.0" layoutY="173.0" text="CCCD">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="Birth" layoutX="137.0" layoutY="214.0" prefHeight="25.0" prefWidth="128.0" />
+            <Label layoutX="293.0" layoutY="226.0" text="Address">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <MenuButton fx:id="Gender" layoutX="20.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" text="MenuButton">
+              <items>
+                <MenuItem fx:id="male" mnemonicParsing="false" text="Male" />
+                <MenuItem fx:id="female" mnemonicParsing="false" text="Female" />
+              </items>
+            </MenuButton>
+            <Button fx:id="Change" layoutX="116.0" layoutY="256.0" mnemonicParsing="false" onAction="#UpdateUser" prefHeight="30.0" prefWidth="76.0" text="Apply">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Name" layoutX="116.0" layoutY="128.0" />
+            <TextField fx:id="Pass" layoutX="116.0" layoutY="176.0" />
+            <TextField fx:id="Phone" layoutX="382.0" layoutY="128.0" />
+            <TextField fx:id="CCCD" layoutX="382.0" layoutY="176.0" />
+            <TextField fx:id="Address" layoutX="382.0" layoutY="229.0" />
+            <Label layoutX="358.0" layoutY="26.0" text="Information" textFill="#ae2e66">
+               <font>
+                  <Font name="Californian FB Bold" size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="65.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="ID" alignment="CENTER" layoutX="123.0" layoutY="29.0" prefHeight="25.0" prefWidth="173.0" text="Label">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="Email" alignment="CENTER" layoutX="123.0" layoutY="68.0" prefHeight="25.0" prefWidth="173.0" text="Label">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
